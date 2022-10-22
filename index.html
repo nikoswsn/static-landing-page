@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="height=device-height, 
+                      width=device-width, initial-scale=1.0, 
+                      minimum-scale=1.0, maximum-scale=1.0, shrink-to-fit=no, 
+                      user-scalable=no, target-densitydpi=device-dpi" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="stylesheet" type="text/css" href="css/bootstrap/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="css/font-awesome/css/font-awesome.min.css" />
+  <link rel="stylesheet" type="text/css" href="plugins/slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="plugins/slick/slick-theme.css" />
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i&amp;subset=cyrillic,cyrillic-ext,latin-ext,vietnamese" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&amp;subset=latin-ext" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="style.css" />
+  <title>Static Landing Page</title>
+ </head>
+ <body>
+  <div class="main_page_wrapper" id="main_page_wrapper">
+   <div id="editable_page">
+    <div id="navbar_container" class="wptg-fixed-nav">
+     <div id="overlay-section" onclick="off()">
+      <div id="overlay-search">
+       <form role="search" method="get" class="search-form-navbar" action="">
+        <label>
+         <input type="search" class="search-field" placeholder="Search" value="" name="s" />
+        </label>
+        <button type="submit" class="search-submit">
+         <i class="fa fa-search"></i>
+        </button>
+       </form>
+      </div>
+     </div>
+     <nav class="navbar navbar-expand-lg wptg-edit-hook wptg-navbar" id="navbar-ablog">
+      <a class="navbar-brand wptg-title" href="#">
+       LOGOTYPE
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+       <i class="fa fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse navbar-collapse" id="navbarNavDropdown">
+       <ul class="navbar-nav">
+        <li class="nav-item active">
+         <a class="nav-link" href="#">Home
+          <span class="sr-only">(current)</span>
+         </a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item dropdown">
+         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Dropdown Menu
+         </a>
+         <ul class="dropdown-menu dropdown-menu-left">
+          <li>
+           <a class="dropdown-item" href="#">Dropdown 1</a>
+          </li>
+          <li>
+           <a hfref="#" class="dropdown-item">Dropdown 2</a>
+          </li>
+          <li class="dropdown-sub">
+           <a hfref="#" class="dropdown-item">Dropdown 3</a>
+           <ul class="dropdown-sub-menu">
+            <li>
+             <a class="dropdown-item" href="#">sub 1</a>
+            </li>
+            <li>
+             <a class="dropdown-item" href="#">sub 2</a>
+            </li>
+           </ul>
+          </li>
+         </ul>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Link</a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link" href="#">Link</a>
+        </li>
+       </ul>
+       <ul class="nav navbar-nav navbar-clean-icon-area">
+        <li class="nav-item">
+         <a class="nav-link wptg-facebook d-none d-xl-block d-lg-none" href="#">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+         </a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link wptg-twitter d-none d-xl-block d-lg-none" href="#">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+         </a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link wptg-instagram d-none d-xl-block d-lg-none" href="#">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+         </a>
+        </li>
+        <li class="nav-item">
+         <a class="nav-link wptg-youtube d-none d-xl-block d-lg-none" href="#">
+          <i class="fa fa-youtube" aria-hidden="true"></i>
+         </a>
+        </li>
+        <div class="navbar-clean-pro-separator"></div>
+        <li class="nav-item main-right-nav dropdown">
+         <a class="nav-link search-link" href="#" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" onclick="on()">
+          <i class="fa fa-search"></i>
+         </a>
+        </li>
+       </ul>
+      </div>
+     </nav>
+    </div>
+    <header id="header_page">
+     <div id="header-xxpp" class="socialbeat-header wptg-edit-hook wptg-image-background" style="background-image: url(img/dummy/background.jpg); ">
+      <div class="socialbeat-header-titles">
+       <h1 class="wptg-title">
+        TrendyShop
+       </h1>
+       <h3 class="wptg-description">
+        Save Up to 60% in Apparel! Get inmerse into the fashion world with the latest trends and deals just for you. All you'll ever need for keeping happy your inner fashionista.
+       </h3>
+      </div>
+      <div class="social-icons">
+       <ul class="list-unstyled list-social-icons">
+        <li><a href="#" class="wptg-facebook" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="#" data-toggle="tooltip" class="wptg-twitter" data-placement="left" title="" target="_blank" data-original-title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="#" class="wptg-instagram" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li class="nav-item"><a class="wptg-youtube" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Youtube" href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+        <li class="nav-item"><a class="wptg-pinterest" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Pinterest" href="#"><i class="fa fa-pinterest" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.linkedin.com" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Linkedin"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.google.com" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Google+"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.vimeo.com" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Vimeo"><i class="fa fa-vimeo" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.tumbl.com" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Tumblr"><i class="fa fa-tumblr" aria-hidden="true"></i></a></li>
+        <li><a href="http://www.flickr.com" data-toggle="tooltip" data-placement="left" title="" target="_blank" data-original-title="Flickr"><i class="fa fa-flickr" aria-hidden="true"></i></a></li>
+       </ul>
+      </div>
+     </div>
+    </header>
+    <div id="main_page">
+     <div class="row">
+      <div id="main_content" class="col-12 col-sm-12 wptg-container">
+       <section class="main-section-features wptg-parent wptg-edit-hook" id="main-section-landscape">
+        <div class="main-section-landscape-container">
+         <div class="row align-items-center">
+          <div class="col-sm-6 col-md-3 col-6 wptg-category-ind">
+           <a href="#">
+            <div class="category-box">
+             <div class="box-img">
+              <img data-image="category" class="img-fluid category-img-1" src="img/dummy/category_0.jpg" />
+             </div>
+             <h4 class="category-title wptg-category-title">
+              Jewellery
+             </h4>
+             <p class="wptg-category-excerpt">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.
+             </p>
+            </div>
+           </a>
+          </div>
+          <div class="col-sm-6 col-md-3 col-6 wptg-category-ind">
+           <a href="#">
+            <div class="category-box">
+             <div class="box-img">
+              <img data-image="category" class="img-fluid category-img-1" src="img/dummy/category_1.jpg" />
+             </div>
+             <h4 class="category-title wptg-category-title">
+              Watches
+             </h4>
+             <p class="wptg-category-excerpt">
+              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+             </p>
+            </div>
+           </a>
+          </div>
+          <div class="col-sm-6 col-md-3 col-6 wptg-category-ind">
+           <a href="#">
+            <div class="category-box">
+             <div class="box-img">
+              <img data-image="category" class="img-fluid category-img-1" src="img/dummy/category_2.jpg" />
+             </div>
+             <h4 class="category-title wptg-category-title">
+              Backpacks
+             </h4>
+             <p class="wptg-category-excerpt">
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu.
+             </p>
+            </div>
+           </a>
+          </div>
+          <div class="col-sm-6 col-md-3 col-6 wptg-category-ind">
+           <a href="#">
+            <div class="category-box">
+             <div class="box-img">
+              <img data-image="category" class="img-fluid category-img-1" src="img/dummy/category_3.jpg" />
+             </div>
+             <h4 class="category-title wptg-category-title">
+              Glasses
+             </h4>
+             <p class="wptg-category-excerpt">
+              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.
+             </p>
+            </div>
+           </a>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+     <div class="row">
+      <div id="action_content" class="col-12 col-sm-12">
+       <section class="wptg-parent wptg-edit-hook" id="action-panorama">
+        <div class="action-panorama-container">
+         <div class="action-panorama-main-content">
+          <h2 class="panorama-title">
+           contact us
+          </h2>
+          <p class="panorama-subtitle">
+           contact us
+          </p>
+          <a href="contact us" class="panorama-button">contact us</a>
+         </div>
+        </div>
+       </section>
+      </div>
+     </div>
+     <main id="content" class="row">
+      <div id="wptg-main-content" class="col-xs-12 col-sm-12">
+       <section class="wptg-main-section wptg-parent wptg-edit-hook" id="section-latest-posts-landing">
+        <div id="latest-posts-classy">
+         <div class="container">
+          <div class="wptg-classy-posts-main">
+           <div class="class-post-ind wptg-post-ind">
+            <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-thumb">
+              <div class="hover-img-base">
+               <figure class="holy-sadie">
+                <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                 <img class="img-fluid wptg-post-img" src="img/dummy/post_0.jpg" data-image="post" />
+                 <figcaption class="overlay-content">
+                  <div class="overlay-cape"></div>
+                 </figcaption>
+                </a>
+               </figure>
+              </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-data">
+              <div class="classy-ind-post">
+               <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                <h2 class="classy-title wptg-post-title">
+                 Mesh Pulse Watch - Black Tone
+                </h2>
+               </a>
+               <div class="classy-text wptg-excerpt">
+                <p>
+                 Watch featuring a mesh bracelet with stainless steel case and a minimalist analog face.
+                </p>
+               </div>
+               <ul class="wptg-tags wptg-tagmeta">
+                <li><a href="#" class="wptg-post-list-tag">tag1</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag2</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag3</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag4</a></li>
+               </ul>
+               <ul class="wptg-categories wptg-tagmeta">
+                <li><a class="wptg-category-link" href="#">Category 1</a></li>
+                <li><a class="wptg-category-link" href="#">Category 2</a></li>
+                <li><a class="wptg-category-link" href="#">Category 3</a></li>
+               </ul>
+               <div class="classy-see-more"><a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">See More</a></div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="class-post-ind wptg-post-ind">
+            <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-thumb">
+              <div class="hover-img-base">
+               <figure class="holy-sadie">
+                <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                 <img class="img-fluid wptg-post-img" src="img/dummy/post_1.jpg" data-image="post" />
+                 <figcaption class="overlay-content">
+                  <div class="overlay-cape"></div>
+                 </figcaption>
+                </a>
+               </figure>
+              </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-data">
+              <div class="classy-ind-post">
+               <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                <h2 class="classy-title wptg-post-title">
+                 Alpha Sunglasses - Washed Navy
+                </h2>
+               </a>
+               <div class="classy-text wptg-excerpt">
+                <p>
+                 Bike chain bracelet of Stainless Steel with a Black Mate color and a Rough Two-tone finishing.
+                </p>
+               </div>
+               <ul class="wptg-tags wptg-tagmeta">
+                <li><a href="#" class="wptg-post-list-tag">tag1</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag2</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag3</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag4</a></li>
+               </ul>
+               <ul class="wptg-categories wptg-tagmeta">
+                <li><a class="wptg-category-link" href="#">Category 1</a></li>
+                <li><a class="wptg-category-link" href="#">Category 2</a></li>
+                <li><a class="wptg-category-link" href="#">Category 3</a></li>
+               </ul>
+               <div class="classy-see-more"><a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">See More</a></div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="class-post-ind wptg-post-ind">
+            <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-thumb">
+              <div class="hover-img-base">
+               <figure class="holy-sadie">
+                <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                 <img class="img-fluid wptg-post-img" src="img/dummy/post_2.jpg" data-image="post" />
+                 <figcaption class="overlay-content">
+                  <div class="overlay-cape"></div>
+                 </figcaption>
+                </a>
+               </figure>
+              </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-data">
+              <div class="classy-ind-post">
+               <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                <h2 class="classy-title wptg-post-title">
+                 Alpha Sunglasses - Washed Navy
+                </h2>
+               </a>
+               <div class="classy-text wptg-excerpt">
+                <p>
+                 Squared sunglasses in a plastic construction, finished with tinted lenses 100% UV protected.
+                </p>
+               </div>
+               <ul class="wptg-tags wptg-tagmeta">
+                <li><a href="#" class="wptg-post-list-tag">tag1</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag2</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag3</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag4</a></li>
+               </ul>
+               <ul class="wptg-categories wptg-tagmeta">
+                <li><a class="wptg-category-link" href="#">Category 1</a></li>
+                <li><a class="wptg-category-link" href="#">Category 2</a></li>
+                <li><a class="wptg-category-link" href="#">Category 3</a></li>
+               </ul>
+               <div class="classy-see-more"><a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">See More</a></div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="class-post-ind wptg-post-ind">
+            <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-thumb">
+              <div class="hover-img-base">
+               <figure class="holy-sadie">
+                <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                 <img class="img-fluid wptg-post-img" src="img/dummy/post_3.jpg" data-image="post" />
+                 <figcaption class="overlay-content">
+                  <div class="overlay-cape"></div>
+                 </figcaption>
+                </a>
+               </figure>
+              </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-data">
+              <div class="classy-ind-post">
+               <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                <h2 class="classy-title wptg-post-title">
+                 14K Gold Rectangle Ring - Gold Plated Brass
+                </h2>
+               </a>
+               <div class="classy-text wptg-excerpt">
+                <p>
+                 Stunning 14K ring featuring an accented rectangle-cut with cubic zirconia covering its body.
+                </p>
+               </div>
+               <ul class="wptg-tags wptg-tagmeta">
+                <li><a href="#" class="wptg-post-list-tag">tag1</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag2</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag3</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag4</a></li>
+               </ul>
+               <ul class="wptg-categories wptg-tagmeta">
+                <li><a class="wptg-category-link" href="#">Category 1</a></li>
+                <li><a class="wptg-category-link" href="#">Category 2</a></li>
+                <li><a class="wptg-category-link" href="#">Category 3</a></li>
+               </ul>
+               <div class="classy-see-more"><a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">See More</a></div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="class-post-ind wptg-post-ind">
+            <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-thumb">
+              <div class="hover-img-base">
+               <figure class="holy-sadie">
+                <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                 <img class="img-fluid wptg-post-img" src="img/dummy/post_4.jpg" data-image="post" />
+                 <figcaption class="overlay-content">
+                  <div class="overlay-cape"></div>
+                 </figcaption>
+                </a>
+               </figure>
+              </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-data">
+              <div class="classy-ind-post">
+               <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                <h2 class="classy-title wptg-post-title">
+                 Patterned Dad Hat - Grey Colored
+                </h2>
+               </a>
+               <div class="classy-text wptg-excerpt">
+                <p>
+                 Plaid multicolor patterned cap made out of a cotton cloth, with an adjustable strap at back.
+                </p>
+               </div>
+               <ul class="wptg-tags wptg-tagmeta">
+                <li><a href="#" class="wptg-post-list-tag">tag1</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag2</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag3</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag4</a></li>
+               </ul>
+               <ul class="wptg-categories wptg-tagmeta">
+                <li><a class="wptg-category-link" href="#">Category 1</a></li>
+                <li><a class="wptg-category-link" href="#">Category 2</a></li>
+                <li><a class="wptg-category-link" href="#">Category 3</a></li>
+               </ul>
+               <div class="classy-see-more"><a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">See More</a></div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="class-post-ind wptg-post-ind">
+            <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-thumb">
+              <div class="hover-img-base">
+               <figure class="holy-sadie">
+                <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                 <img class="img-fluid wptg-post-img" src="img/dummy/post_5.jpg" data-image="post" />
+                 <figcaption class="overlay-content">
+                  <div class="overlay-cape"></div>
+                 </figcaption>
+                </a>
+               </figure>
+              </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-data">
+              <div class="classy-ind-post">
+               <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                <h2 class="classy-title wptg-post-title">
+                 Mini Messenger Bag - Purple Colored
+                </h2>
+               </a>
+               <div class="classy-text wptg-excerpt">
+                <p>
+                 Mini crossbody messenger bag with two zip compartments and an adjustable webbed strap.
+                </p>
+               </div>
+               <ul class="wptg-tags wptg-tagmeta">
+                <li><a href="#" class="wptg-post-list-tag">tag1</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag2</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag3</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag4</a></li>
+               </ul>
+               <ul class="wptg-categories wptg-tagmeta">
+                <li><a class="wptg-category-link" href="#">Category 1</a></li>
+                <li><a class="wptg-category-link" href="#">Category 2</a></li>
+                <li><a class="wptg-category-link" href="#">Category 3</a></li>
+               </ul>
+               <div class="classy-see-more"><a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">See More</a></div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="class-post-ind wptg-post-ind">
+            <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-thumb">
+              <div class="hover-img-base">
+               <figure class="holy-sadie">
+                <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                 <img class="img-fluid wptg-post-img" src="img/dummy/post_6.jpg" data-image="post" />
+                 <figcaption class="overlay-content">
+                  <div class="overlay-cape"></div>
+                 </figcaption>
+                </a>
+               </figure>
+              </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-data">
+              <div class="classy-ind-post">
+               <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                <h2 class="classy-title wptg-post-title">
+                 Water Drop Sunglasses - Purple Tinted Lenses
+                </h2>
+               </a>
+               <div class="classy-text wptg-excerpt">
+                <p>
+                 Colorful tinted lenses with shiny metal frames in a water droplet silhouette, comfortable to wear.
+                </p>
+               </div>
+               <ul class="wptg-tags wptg-tagmeta">
+                <li><a href="#" class="wptg-post-list-tag">tag1</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag2</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag3</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag4</a></li>
+               </ul>
+               <ul class="wptg-categories wptg-tagmeta">
+                <li><a class="wptg-category-link" href="#">Category 1</a></li>
+                <li><a class="wptg-category-link" href="#">Category 2</a></li>
+                <li><a class="wptg-category-link" href="#">Category 3</a></li>
+               </ul>
+               <div class="classy-see-more"><a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">See More</a></div>
+              </div>
+             </div>
+            </div>
+           </div>
+           <div class="class-post-ind wptg-post-ind">
+            <div class="row">
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-thumb">
+              <div class="hover-img-base">
+               <figure class="holy-sadie">
+                <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                 <img class="img-fluid wptg-post-img" src="img/dummy/post_7.jpg" data-image="post" />
+                 <figcaption class="overlay-content">
+                  <div class="overlay-cape"></div>
+                 </figcaption>
+                </a>
+               </figure>
+              </div>
+             </div>
+             <div class="col-xs-12 col-sm-12 col-md-6 center-classy-post classy-post-data">
+              <div class="classy-ind-post">
+               <a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">
+                <h2 class="classy-title wptg-post-title">
+                 Fisherman Cotton Hat - Navy Colored
+                </h2>
+               </a>
+               <div class="classy-text wptg-excerpt">
+                <p>
+                 A sailor hat featuring a braided trim at the front and completed with a subtle curved brim.
+                </p>
+               </div>
+               <ul class="wptg-tags wptg-tagmeta">
+                <li><a href="#" class="wptg-post-list-tag">tag1</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag2</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag3</a></li>
+                <li><a href="#" class="wptg-post-list-tag">tag4</a></li>
+               </ul>
+               <ul class="wptg-categories wptg-tagmeta">
+                <li><a class="wptg-category-link" href="#">Category 1</a></li>
+                <li><a class="wptg-category-link" href="#">Category 2</a></li>
+                <li><a class="wptg-category-link" href="#">Category 3</a></li>
+               </ul>
+               <div class="classy-see-more"><a href="#" title="Your Post Title" class="hoverable-post wptg-link-post">See More</a></div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </section>
+      </div>
+     </main>
+     <div id="testimonials_content"></div>
+     <div id="people_content"></div>
+     <div id="pricing_content"></div>
+    </div>
+    <footer id="footer_page">
+     <div id="footer-adagio" class="wptg-edit-hook">
+      <hr class="footer-adagio-stylizer" />
+      <div class="footer-adagio-content">
+       <hr class="footer-adagio-stylizer" />
+       <div class="row">
+        <div class="col-xs-12 col-sm-12">
+         <div class="menu-social">
+          <ul class="menu-items adagio-menu-social ">
+           <li><a class="wptg-facebook fa fa-facebook" href="#"></a></li>
+           <li><a class="wptg-twitter fa fa-twitter" href="#"></a></li>
+           <li><a class="wptg-instagram fa fa-instagram" href="#"></a></li>
+           <li><a class="wptg-youtube fa fa-youtube-play" href="#"></a></li>
+           <li><a class="wptg-pinterest fa fa-pinterest" href="#"></a></li>
+           <li><a class="wptg-linkedin fa fa-linkedin" href=""></a></li>
+           <li><a class="wptg-google fa fa-google-plus" href=""></a></li>
+           <li><a class="wptg-vimeo fa fa-vimeo" href=""></a></li>
+           <li><a class="wptg-tumblr fa fa-tumblr" href=""></a></li>
+           <li><a class="wptg-flickr fa fa-flickr" href=""></a></li>
+          </ul>
+         </div>
+        </div>
+       </div>
+       <div class="container">
+        <div class="adagio-footer-content">
+         <div class="row justify-content-between">
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+           <div class="adagio-left">
+            <div class="widget-area">
+             <div class="dummy-area">
+              <h3 class="adagio-widget-title">
+               Footer Menu
+              </h3>
+              <ul class="menu">
+               <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-45"><a href="http://demo.vivathemes.com/themes/elixir/">Home</a></li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-91"><a href="http://demo.vivathemes.com/themes/adagio/blog/">Blog</a></li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-90"><a href="http://demo.vivathemes.com/themes/adagio/portfolio/">Portfolio</a></li>
+               <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-106"><a href="http://demo.vivathemes.com/themes/adagio/contact/">Contact</a></li>
+              </ul>
+             </div>
+            </div>
+           </div>
+          </div>
+          <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 push-lg-6 push-md-6">
+           <div class="adagio-right">
+            <div class="widget-area">
+             <div class="dummy-area">
+              <h3 class="adagio-widget-title">
+               Text Widget
+              </h3>
+              <p>
+               Phasellus fringilla vehicula egestas. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam gravida porta tellus sit amet.
+              </p>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+        </div>
+       </div>
+       <div class="adagio-footer-note"></div>
+      </div>
+     </div>
+    </footer>
+   </div>
+  </div>
+  <script src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap/bootstrap.min.js"></script>
+  <script type="text/javascript" src="plugins/slick/slick.js"></script>
+  <script type="text/javascript" src="js/scripts.js"></script>
+ </body>
+</html>
